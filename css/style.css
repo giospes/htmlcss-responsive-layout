@@ -63,8 +63,13 @@ header{
 nav{
     height: 100%;
     align-items: center;
+    color: #ffffff;
 }
 
 nav img{
-    height: 50%;
+    height: 60%;
+}
+nav i{
+   font-size: 1.2rem;
+   
 }
