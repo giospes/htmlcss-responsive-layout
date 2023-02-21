@@ -42,9 +42,9 @@ p{
 /* utilities */
 
 .container{
-    max-width: 800px;
+    max-width: 350px;
     margin: 0 auto;
-    padding: 0 2.5rem;
+    padding: 1rem;
 }
 
 .debug{
@@ -89,7 +89,7 @@ nav{
 }
 
 nav img{
-    height: 60%;
+    height: 100%;
 }
 
 nav i{
@@ -214,7 +214,7 @@ nav i{
 
 /* section 3 styling */
 #testimonials{
-    padding: 2rem ;
+    padding: 3rem 1rem;
 }
 
 #testimonials h2{
@@ -273,7 +273,7 @@ nav i{
 
 /* section 4 styling */
 #features{
-    padding: 3rem ;
+    padding: 3rem 1rem ;
 }
 #features .card{
     background-color: var(--main-bg-color);
@@ -309,3 +309,41 @@ nav i{
     font-size: .9rem;
     font-weight: 700;
 }
+
+/* section 5 styling */
+#about-us{
+    padding-top: 4rem;
+}
+
+#about-us h2{
+    margin-bottom: 3rem;
+    color: var(--secondary-bg-color);
+}
+
+#about-us p{
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+
+#about-us .img-container{
+    margin: 0 0 2rem;
+    position: relative;
+    width: 180px;
+    height: 180px;
+}
+
+#about-us .quotation-marks{
+    line-height: 50px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    font-size: 7rem;
+    color: var(--secondary-bg-color);
+}
+
+#about-us em{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--secondary-bg-color);
+}
+
