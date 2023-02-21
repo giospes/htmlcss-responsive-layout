@@ -69,6 +69,8 @@ p{
     text-align: center;
 }
 
+
+
 /* header */
 
 .desktop-element{
@@ -96,7 +98,11 @@ nav i{
 
 /* main */
 
-
+.card{
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 .odd-sec{
     background-color: var(--secondary-bg-color);
 }
@@ -108,11 +114,6 @@ nav i{
     padding-bottom: 2rem;
 }
 
-.card{
-    width: 100%;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-}
 
 #main-features .card{
     background-color: rgb(181, 221, 255);
@@ -134,7 +135,7 @@ nav i{
     font-weight: 700;
 }
 
-#main-features .card .button{
+#main-features .card a{
     color: white;
     background-color: var(--header-bg-color);
     padding: .5rem 3rem;
@@ -181,9 +182,6 @@ nav i{
     margin-bottom: 2rem;
     font-size: 1.5rem ;
 }
-
-
-
 
 #planning #app-development{
     padding: 1.5rem;
@@ -241,7 +239,6 @@ nav i{
     background-color: var(--secondary-bg-color);
     color: white;
     padding: 1.5rem;
-    margin-bottom: 2rem; 
     border-radius: 30px;
 }
 
@@ -272,4 +269,43 @@ nav i{
     position: relative;
     top: .4rem;
     padding: .3rem;
+}
+
+/* section 4 styling */
+#features{
+    padding: 3rem ;
+}
+#features .card{
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+}
+#features h2{
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin: 1rem 0 3rem;
+}
+.number{
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-bg-color);
+}
+#features h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-bg-color);
+}
+#features p{
+    color: var(--card-txt-color);
+    margin-bottom: 1.5rem;
+}
+#features a{
+    background-color: var(--secondary-bg-color);
+    padding: .3rem 2rem .4rem;
+    border-radius: 15px;
+}
+#features a span{
+    letter-spacing: .3rem;
+    font-size: .9rem;
+    font-weight: 700;
 }
