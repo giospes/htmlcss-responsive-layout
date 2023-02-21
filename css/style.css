@@ -35,6 +35,9 @@ img{
     max-width: 100%;
 }
 
+p{
+    line-height: 1.5rem;
+}
 
 /* utilities */
 
@@ -129,7 +132,6 @@ nav i{
 #main-features .card p{
     color: var(--card-txt-color);
     font-weight: 700;
-    line-height: 1.5rem;
 }
 
 #main-features .card .button{
@@ -180,9 +182,6 @@ nav i{
     font-size: 1.5rem ;
 }
 
-#planning .card p{
-    line-height: 1.5rem;
-}
 
 
 
@@ -213,4 +212,64 @@ nav i{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* section 3 styling */
+#testimonials{
+    padding: 2rem ;
+}
+
+#testimonials h2{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--footer-bg-color);
+}
+
+#testimonials h3{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--secondary-bg-color);
+}
+
+#testimonials>p{
+    margin-bottom: 2rem;
+}
+
+#testimonials .card{
+    background-color: var(--secondary-bg-color);
+    color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem; 
+    border-radius: 30px;
+}
+
+.img-container{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.img-container img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#testimonials .card p{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#testimonials .card strong{
+    text-transform: uppercase;
+}
+
+.quotation-marks{
+    font-size: 1.8rem;
+    position: relative;
+    top: .4rem;
+    padding: .3rem;
 }
