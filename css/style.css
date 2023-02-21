@@ -345,5 +345,56 @@ nav i{
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--secondary-bg-color);
+    display: block;
+    margin-bottom: 2rem;
 }
+
+#about-us a{
+    background-color: var(--secondary-bg-color);
+    color: var(--main-bg-color);
+    padding: .4rem .8rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+#about-us a i{
+    padding-right: .3rem;
+}
+
+
+/* section 6 styling */
+#cta{
+    padding: 1rem 0;
+    color: #ffffff;
+}
+
+#cta h2{
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#cta h3{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#cta strong{
+    display: block;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    margin-bottom: 2rem;
+}
+
+#cta a{
+    margin-top: 2rem;
+    background-color: var(--main-bg-color);
+    color: var(--secondary-bg-color);
+    padding: 1rem 4rem;
+    border-radius: 30px;
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+
 
