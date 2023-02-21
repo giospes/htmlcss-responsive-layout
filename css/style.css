@@ -15,17 +15,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: .9rem;
+}
+
+ul{
+    list-style-type: none;
 }
 
 body{
     font-family: 'PT sans', sans-serif;
 }
 
-.odd-sec{
-    background-color: var(--secondary-bg-color);
+a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
 }
-
 
 
 /* utilities */
@@ -33,7 +37,7 @@ body{
 .container{
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 2.5rem;
 }
 
 .debug{
@@ -48,6 +52,14 @@ body{
     justify-content: space-between;
 }
 
+.flex-col{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.center{
+    text-align: center;
+}
 
 /* header */
 
@@ -57,7 +69,7 @@ body{
 
 header{
     background-color: var(--header-bg-color);
-    height: 40px;
+    height: 50px;
 }
 
 nav{
@@ -69,7 +81,74 @@ nav{
 nav img{
     height: 60%;
 }
+
 nav i{
-   font-size: 1.2rem;
-   
+   font-size: 1.2rem; 
+}
+
+/* main */
+
+
+.odd-sec{
+    background-color: var(--secondary-bg-color);
+}
+
+/* section 1 */
+
+#main-features{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+
+.card{
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#main-features .card{
+    background-color: rgb(181, 221, 255);
+    border-radius: 10px;
+}
+
+#first-card{
+    padding-bottom: 0;
+}
+
+#main-features .card h3{
+    font-size: 1.3rem;
+    color: var(--header-bg-color) ;
+    margin-bottom: 1.5rem;
+}
+
+#main-features .card p{
+    color: var(--card-txt-color);
+    font-weight: 700;
+}
+
+#main-features .card .button{
+    color: white;
+    background-color: var(--header-bg-color);
+    padding: .5rem 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+}
+
+#main-features .card .button span, i{
+    font-weight: 700;
+}
+
+#main-features .card img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.big-icon{
+    color: var(--header-bg-color);
+    font-size: 5rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
