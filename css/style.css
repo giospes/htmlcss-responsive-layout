@@ -424,6 +424,10 @@ footer .container p:first-child{
     nav.container{
         padding: 0rem 3rem;
     }
+    #main-features .card img{
+        max-height: 400px;
+    }
+
 }
 
 @media all and (min-width: 768px){
@@ -442,6 +446,7 @@ footer .container p:first-child{
     }
     #main-features #first-card{
         width: calc((100% - 1rem) * (2 / 3)) ;
+        padding-bottom: 0;
     }
     #main-features .card h3{
         font-size: 2rem;
@@ -507,4 +512,53 @@ footer .container p:first-child{
     #about-us article h2{
         font-size: 4rem;
     }
+}
+
+@media all and (min-width: 920px){
+    .container{
+        max-width: 1000px;
+    }
+    i.mobile-element{
+        display: none;
+    }
+    .desktop-element{
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul{
+        width: 50%;
+    }
+    #cta-btn{
+        display: inline-block;
+        padding: .3rem .6rem;
+        background-color: #ffffff;
+        border-radius: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    /* section 2 */
+    #planning{
+        padding-top: 5rem;
+    }
+    #planning .card{
+        width: 45%;
+    }
+    #planning #app-development{
+        margin-top: 13rem;
+        height: 500px;
+    }
+    #planning #app-development img{
+        height: 40%;
+    }
+    #planning .card h3{
+        font-size: 1.5rem;
+    }
+
+    /* section 4 */
+    #features .card{
+        width: calc((100% - 4rem) / 3);
+    }
+
 }
