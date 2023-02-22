@@ -491,4 +491,20 @@ footer .container p:first-child{
         align-self: center;
         font-size: 1.1rem;
     }
+
+    /* section 4 */
+    #features .card{
+        width: calc((100% - 2rem) / 2);
+    }
+
+    /* section 5*/
+    #about-us article{
+        width: 60%;
+    }
+    #about-us aside{
+        width: 30%;
+    }
+    #about-us article h2{
+        font-size: 4rem;
+    }
 }
